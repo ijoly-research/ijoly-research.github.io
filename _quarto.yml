@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "!README.md"
+
+website:
+  title: "Iragaël Joly"
+  site-url: https://ijoly-research.github.io
+  description: "Econometrics, data science and AI for decision-making — Grenoble INP, GAEL"
+  favicon: images/photo.jpg
+  open-graph: true
+  page-navigation: false
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: supervision.qmd
+        text: Supervision
+      - href: teaching.qmd
+        text: Teaching
+      - href: industry.qmd
+        text: AI for Industry
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: envelope
+        href: mailto:iragael.joly@grenoble-inp.fr
+        aria-label: Email
+      - icon: github
+        href: https://github.com/Iragael38
+        aria-label: GitHub
+  page-footer:
+    left: "© 2026 Iragaël Joly · Grenoble INP – UGA, Génie Industriel · GAEL"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles/light.scss]
+      dark: [cosmo, styles/dark.scss]
+    css: styles/site.css
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    link-external-newwindow: true
+    lang: en
+
+execute:
+  echo: false
+  warning: false
+  message: false

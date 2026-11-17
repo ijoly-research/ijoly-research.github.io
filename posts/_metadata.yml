@@ -1,0 +1,5 @@
+# Settings shared by every post
+execute:
+  freeze: auto   # R code is run on your computer; the results are saved in _freeze/
+  echo: true     # show the R code in posts
+toc: true

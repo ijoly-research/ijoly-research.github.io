@@ -1,0 +1,52 @@
+---
+title: "Research"
+---
+
+My research in applied micro-econometrics deals with **complex economic data**: individual or managerial behaviour, hard-to-observe dimensions such as environmental motivations, preferences, trust or reputation, and strong heterogeneity across individuals and firms. The goal is often to produce **decision-support indicators** — willingness to pay, elasticities, effects of public policies, cost estimates.
+
+Machine learning methods offer high predictive power and scale to large datasets. Econometric models remain stronger for interpretation, causal identification and grounding in economic theory. My work aims to **combine both approaches**, so that models are at the same time accurate, interpretable and useful for the decision they serve.
+
+A common thread across my publications is the question of the **fit between models, data and uses**: how the characteristics of the data (size, imbalance, latent or endogenous variables) affect estimates, the indicators derived from them, and ultimately the decisions they inform.
+
+## Econometrics and machine learning
+
+This first axis studies the complementarities between econometric models and machine learning, using AI as a tool for applied research.
+
+- **Model comparison for economic indicators.** Comparing econometric models for prediction, explanation and the derivation of economic indicators (price elasticities, willingness to pay) on real travel-behaviour data ([Bouscasse et al., 2019](publications.qmd)).
+- **Neural networks vs. mixed logit models.** In Nikita Gusarov's PhD (2020–2024), we compared neural networks designed to estimate utility functions with mixed logit models. Neural networks often predict better, while econometric models remain more reliable for interpretable indicators. Evaluation goes beyond predictive accuracy to include decision quality, computation time and data characteristics (sample size, balance, complexity).
+- **Manufacturing cost estimation.** Nhung Dang's ongoing PhD transposes this approach to production cost prediction, comparing structural equation models and machine learning with multi-objective criteria adapted to industrial decision-making, and treating product and process complexity as a latent dimension.
+- **Data science and operations research.** Yuzhen Wang's work combined data analysis and operations research for Industry 4.0, studying variants of nearest-neighbour algorithms (feature weighting by linear programming) and the conditions under which each performs best.
+
+## AI in firms and society
+
+The second axis looks at AI as an economic object: how firms and consumers actually adopt and use it.
+
+- **AI adoption in SMEs.** Through action research with small and medium-sized manufacturers since 2020 (ACCEL 4.0 and ACCEL4.S chairs), I analyse around a dozen industrial cases: return on investment, implementation and maintenance costs, skills, and the blind spots of decision processes — data governance and security, regulation, environmental and social impacts.
+- **Circular supply chains.** Two PhDs co-supervised with colleagues from G-SCOP (Maria Victoria Hernandez Marquina, Paola Kouyoumji) study how circular supply chains are built, using mixed methods to analyse trade-offs between performance, risk, commitment and trust between partners, and the role of data and AI in the transition of SMEs to circular business models.
+- **Digital tools and consumers.** The ANR project COVoM (2021–2022) analysed the use of contact-tracing apps during the COVID-19 crisis, comparing countries through a quantitative survey and interviews, with a focus on trust in technologies and institutions.
+
+## Earlier work
+
+My PhD and early research dealt with **transport economics and travel behaviour**: travel time budgets and the "Zahavi conjecture", activity and travel time allocation, and duration models applied to large mobility surveys in French and Swiss cities. I also worked on consumer preferences for eco-innovative products, the longevity of agricultural cooperatives, and reputation in creative industries.
+
+## Research projects
+
+**Current**
+
+- **ACCEL4.S** — *Accelerator towards a sustainable industry: from research to skills* (2025–), industrial chair led by E. Perret and M.-A. Le Dain. I lead the two AI-focused axes: AI for the circular economy, and AI for sustainable performance (environmental, economic and social). Support to SMEs provides real use cases: production cost prediction, predictive maintenance, process optimisation.
+- **AI demonstrator — MIAI Grenoble Alpes** (2026–2029): opening the hood of an AI system to understand its stakes, from sustainable AI to industrial integration and the transformation of jobs.
+
+**Past (selection)**
+
+- ACCEL 4.0 industrial chair — AI for manufacturing (2021–2025)
+- ANR COVoM — *Covid on My Mobile*, contact-tracing apps (2021–2022)
+- IDEX CDP Circular — circular supply chains
+- MIAI chair *AI for data-driven and self-configurable supply chains*
+- EIT Manufacturing — *AI for Manufacturing SMEs and Students* (2021–2024)
+- PREDIT and ANR Eurocities DATTA — travel time budgets and urban mobility
+
+## Reviewing and expertise
+
+**Reviewer** for *Transportation*, *European Transport Research Review*, *Journal of Choice Modelling*, *European Review of Agricultural Economics*, *Review of Agricultural and Environmental Studies*, *Les Cahiers Scientifiques du Transport*, *Recherche Transports Sécurité*, *Revue Internationale de Géomatique*, the World Conference on Transport Research and the European Transport Conference.
+
+**Expertise** for CIFRE PhD funding (2024), the Rhône-Alpes ARC7 research community (2010–2015), the Rhône-Alpes cluster programme (2013), PREDIT (2005, 2011) and PUCA (2007).

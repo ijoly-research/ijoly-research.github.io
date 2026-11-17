@@ -1,0 +1,9 @@
+/.quarto/
+/_site/
+*.knit.md
+*_files/
+.Rproj.user/
+.Rhistory
+.RData
+
+**/*.quarto_ipynb

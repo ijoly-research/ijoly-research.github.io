@@ -1,0 +1,54 @@
+---
+title: "Iragaël Joly"
+subtitle: "Associate Professor (HDR) in Economics"
+toc: false
+image: images/photo.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:iragael.joly@grenoble-inp.fr
+    - icon: github
+      text: GitHub
+      href: https://github.com/Iragael38
+    - icon: file-text
+      text: Publications
+      href: publications.qmd
+---
+
+I am an Associate Professor (*Maître de conférences*, HDR) in economics at [Grenoble INP – UGA, Génie Industriel](https://genie-industriel.grenoble-inp.fr/) and a member of the [Grenoble Applied Economics Lab (GAEL)](https://gael.univ-grenoble-alpes.fr/).
+
+My work sits at the interface between **econometrics, statistics and data science**. I develop hybrid approaches that combine interpretable econometric models — discrete choice, duration and structural equation models — with machine learning methods, to analyse complex economic data and support decision-making in firms and public policy.
+
+I apply these methods to two main fields: **consumer behaviour** with an environmental dimension (mobility choices, adoption of sustainable products), and the **performance and transformation of firms**, especially circular supply chains and the adoption of artificial intelligence by small and medium-sized enterprises.
+
+### Research interests
+
+- Econometrics and machine learning: complementarities, model comparison, decision-oriented evaluation
+- Discrete choice, duration and structural equation models; latent variables and heterogeneity
+- AI in firms: deployment conditions, costs, skills and sustainability
+- Circular economy and sustainable supply chains
+- Transport economics and travel behaviour
+
+### Education
+
+- **HDR** (Habilitation to supervise research) in Economics, Université de Lyon, 2017
+- **PhD** in Economics, Université de Lyon, 2005
+
+## Recent activities
+
+```{r}
+#| results: asis
+source("R/bib.R")
+recent <- recent_items(c(
+  "data/bib/articles-comite-lecture.bib",
+  "data/bib/actes-colloques-comite.bib",
+  "data/bib/seminaires-conferences-invitees.bib"
+), n = 6)
+cat("::: {.pubs}\n")
+for (e in recent) cat("- ", format_entry(e), "\n", sep = "")
+cat(":::\n\n[All publications and talks →](publications.qmd)\n")
+```

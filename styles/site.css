@@ -1,0 +1,20 @@
+/* Publication lists */
+.pubs ol { padding-left: 1.6rem; }
+.pubs li { margin-bottom: .55rem; line-height: 1.45; }
+.pubs a { font-size: .85em; font-weight: 600; }
+
+/* Key figures */
+.kpis { display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.5rem 0; }
+.kpi { flex: 1 1 150px; border-left: 4px solid #CC6E00; padding: .4rem .9rem; }
+.kpi .value { display: block; font-size: 1.8rem; font-weight: 700; line-height: 1.1; }
+.kpi .label { display: block; font-size: .9rem; opacity: .8; }
+
+/* Case-study cards */
+.cases { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin: 1rem 0 1.5rem; }
+.case { border: 1px solid rgba(127,127,127,.3); border-radius: 8px; padding: 1rem 1.1rem; }
+.case h4 { margin-top: 0; font-size: 1.1rem; }
+.case .sector { font-size: .85rem; opacity: .75; margin-bottom: .5rem; }
+.case p { margin-bottom: .35rem; font-size: .95rem; }
+
+/* Tables */
+.table-sm td, .table-sm th { vertical-align: top; }

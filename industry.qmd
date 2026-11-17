@@ -1,0 +1,104 @@
+---
+title: "AI for Industry"
+subtitle: "Support and training for industrial companies"
+---
+
+I help industrial companies make AI **useful and profitable, from data to decision**: identifying the AI projects that make sense for the company, checking that the data allow them, and carrying them through to a tool that teams actually use. I also train the engineers and managers who will lead AI in their organisations.
+
+My approach combines the skills of an **economist and a data scientist**, to link every project to its economic value, with a perspective independent of any software vendor.
+
+::: {.kpis}
+::: {.kpi}
+[15 SMEs]{.value}
+[supported through the ACCEL programme]{.label}
+:::
+::: {.kpi}
+[60+]{.value}
+[people trained every year]{.label}
+:::
+::: {.kpi}
+[19 years]{.value}
+[between research and industry]{.label}
+:::
+:::
+
+## Areas of work
+
+- **Data and AI-maturity diagnosis** — start from the industrial need to qualify the data and identify what has to be consolidated.
+- **Decision-support tools** — multi-criteria scoring for planners (maintenance, production, menu planning…).
+- **Predictive models and optimisation** — cost estimation, machine settings, quality.
+- **Project scoping and follow-up** — from the use case to a tool adopted by the teams.
+
+## Case studies
+
+::: {.cases}
+::: {.case}
+#### Optimising machine tests
+[Manufacturer · compressors]{.sector}
+
+**Challenge:** improve the tuning tests (PID) of machines designed and produced on site.
+
+**Approach:** analysis of test data and optimisation of PID parameters.
+
+**Result:** 80% of tests could be improved, a potential of €500k per year.
+:::
+
+::: {.case}
+#### AI-based mould quotation
+[Mould maker · plastics]{.sector}
+
+**Challenge:** quote custom moulds faster and more accurately.
+
+**Approach:** machine-learning cost estimation model; making the data and the process more reliable (learning from accepted quotes only).
+
+**Result:** faster, more consistent quotes.
+:::
+
+::: {.case}
+#### Menu planning
+[Institutional catering]{.sector}
+
+**Challenge:** balance cost, feasibility, compliance with the EGalim law and diner satisfaction.
+
+**Approach:** multi-criteria scoring of menus for the dietitian who plans them.
+
+**Result:** faster, more objective trade-offs.
+:::
+
+::: {.case}
+#### Prioritising maintenance
+[Manufacturing SME]{.sector}
+
+**Challenge:** give the planner a clear view of the condition of critical equipment.
+
+**Approach:** equipment scoring method based on machine data.
+
+**Result:** synthetic information to prioritise interventions.
+:::
+
+::: {.case}
+#### Quality data diagnosis
+[Manufacturing SME]{.sector}
+
+**Challenge:** target quality controls according to the product mix.
+
+**Approach:** diagnosis of production data quality.
+
+**Result:** a premature ML project avoided; a data roadmap defined.
+:::
+:::
+
+## Training programmes
+
+For **engineers and managers** who are to become the AI leads of their organisation: identify the right use cases, scope a project, work with providers and understand the stakes. In person, inter- or intra-company. Active learning with tailor-made **serious games** and real cases from my projects.
+
+- **"AI and Applications" certificate** — 18 days · RNCP certification · eligible for the French CPF. A complete programme to become an AI lead: methods, tools, project management, industrial cases.
+- **"AI for Manufacturing"** — 2 days · Grenoble INP continuing education. Industrial use cases: quality, maintenance, cost estimation, planning.
+- **3-hour workshops** — 10 to 20 participants, 2–3 sessions a year. AI and its economic, social and environmental stakes · AI project management for executives · needs analysis and AI solution design.
+- **AI for Manufacturing (EIT Manufacturing)** — 2021–2024, programme lead. European training programme on AI for manufacturing SMEs and students.
+
+Training is delivered through Grenoble INP, a Qualiopi-certified provider.
+
+## Contact
+
+For a project or a training request: [iragael.joly@grenoble-inp.fr](mailto:iragael.joly@grenoble-inp.fr)

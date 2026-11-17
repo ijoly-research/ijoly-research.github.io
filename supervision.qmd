@@ -1,0 +1,45 @@
+---
+title: "Supervision"
+---
+
+```{r}
+source("R/bib.R")
+esc <- function(x) gsub("\\|", "/", x)
+```
+
+## PhD theses
+
+```{r}
+#| results: asis
+phd <- read.csv("data/phd-supervision.csv", encoding = "UTF-8", stringsAsFactors = FALSE)
+for (i in seq_len(nrow(phd))) {
+  p <- phd[i, ]
+  cat("**", p$student, "** · ", p$period, "  \n", sep = "")
+  cat("*", p$title, "*  \n", sep = "")
+  cat("Co-supervision ", p$co_supervision, " · Funding: ", p$funding,
+      " · ", p$outcome, "\n\n", sep = "")
+}
+```
+
+## Master's theses
+
+```{r}
+#| results: asis
+m <- read.csv("data/masters-supervision.csv", encoding = "UTF-8",
+              stringsAsFactors = FALSE, strip.white = TRUE)
+names(m) <- trimws(names(m))
+m$what <- gsub("\\\\&", "&", m$what)
+m <- m[order(-m$when), ]
+cat("| Year | Student | Topic | Programme and context |\n|---|---|---|---|\n")
+for (i in seq_len(nrow(m))) {
+  cat("| ", m$when[i], " | ", esc(m$who[i]), " | *", esc(m$what[i]), "* | ",
+      esc(m$with[i]), " |\n", sep = "")
+}
+```
+
+## Other supervision
+
+- Examiner for master's theses, one or two per year since 2008.
+- Academic supervision of research-oriented final-year projects: 6 Génie Industriel students; 7 double-degree students with Karlsruhe Institute of Technology (KIT) and 2 with Politecnico di Torino.
+- Master 2 research supervision at Université Grenoble Alpes (5 students, M2 C2ES) and Université Lumière Lyon 2 (2 students).
+- Introduction to research: about one M1 research project (TER) per year at Génie Industriel since 2010, two at ENSIMAG, and bachelor projects in economics and statistics (2016–2019).

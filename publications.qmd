@@ -1,0 +1,35 @@
+---
+title: "Publications"
+---
+
+```{r}
+source("R/bib.R")
+
+# One section per .bib file in data/bib/
+# To add a reference: add it to the matching .bib file, then commit and push.
+sections <- c(
+  "Peer-reviewed journal articles"        = "articles-comite-lecture.bib",
+  "Books and book chapters"               = "ouvrages-chapitres.bib",
+  "Peer-reviewed conference proceedings"  = "actes-colloques-comite.bib",
+  "Working papers"                        = "working-papers-soumissions.bib",
+  "Other articles"                        = "articles-sans-comite.bib",
+  "Science outreach and blog posts"       = "Articles-blog.bib",
+  "Research reports"                      = "rapports-recherche.bib",
+  "International conferences"             = "communications-internationales.bib",
+  "National conferences"                  = "communications-nationales.bib",
+  "Invited talks and seminars"            = "seminaires-conferences-invitees.bib"
+)
+paths <- file.path("data/bib", sections)
+```
+
+Names in **bold**: myself. [Underlined names]{.student}: PhD students I supervised.
+
+```{r}
+#| results: asis
+for (i in seq_along(sections)) {
+  cat("\n## ", names(sections)[i], " (", count_bib(paths[i]), ")\n\n", sep = "")
+  cat("::: {.pubs}\n\n")
+  print_bib_section(paths[i])
+  cat(":::\n\n")
+}
+```

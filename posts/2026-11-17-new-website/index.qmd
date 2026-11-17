@@ -1,0 +1,12 @@
+---
+title: "A new home for this website"
+date: 2026-11-17
+categories: [news]
+description: "The site moves to Quarto and GitHub Pages."
+---
+
+This website has a new look and a new home. It is now built with [Quarto](https://quarto.org) and published on GitHub Pages.
+
+The publication list is generated directly from the same BibTeX files I use for my CV, so it stays up to date.
+
+New posts will appear here: notes on econometrics, data science, and AI in industry.
