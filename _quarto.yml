@@ -33,6 +33,9 @@ website:
       - icon: envelope
         href: mailto:iragael.joly@grenoble-inp.fr
         aria-label: Email
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joly-iragael-b5274440
+        aria-label: LinkedIn
       - icon: github
         href: https://github.com/Iragael38
         aria-label: GitHub

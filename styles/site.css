@@ -18,3 +18,24 @@
 
 /* Tables */
 .table-sm td, .table-sm th { vertical-align: top; }
+
+/* Home page */
+.home-wrap { max-width: 1180px; margin: 0 auto; }
+.home-header { display: flex; align-items: center; gap: 1.6rem; margin: .5rem 0 2rem; }
+.home-photo { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.home-id p { margin: 0; }
+.home-name { display: block; font-family: "Source Serif 4", Georgia, serif; font-size: 2.3rem; font-weight: 600; line-height: 1.15; }
+.home-role { display: block; font-size: 1.1rem; opacity: .85; margin: .2rem 0 .8rem; }
+.home-links p { display: flex; flex-wrap: wrap; gap: .5rem; }
+.home-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 3rem; }
+.home-side { border-left: 1px solid rgba(127,127,127,.3); padding-left: 2rem; font-size: .95rem; }
+.home-grid h2 { font-size: 1.4rem; margin-top: 1.8rem; }
+.home-side h2:first-child { margin-top: 0; }
+.home-side li { margin-bottom: .55rem; }
+@media (max-width: 860px) {
+  .home-grid { grid-template-columns: 1fr; gap: 0; }
+  .home-side { border-left: 0; padding-left: 0; }
+  .home-header { flex-direction: column; text-align: center; }
+  .home-links p { justify-content: center; }
+}
+.home-page #title-block-header { display: none; }

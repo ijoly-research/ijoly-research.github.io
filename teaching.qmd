@@ -2,35 +2,53 @@
 title: "Teaching"
 ---
 
-I teach economics and data science at Grenoble INP – Génie Industriel, mostly at master's level. Today about two thirds of my teaching is in English, for international master's students.
+My teaching focuses on **AI for decision-making**: how data, models and AI systems can support decisions, and how AI itself changes the way **managers and consumers decide**. I teach at Grenoble INP – Génie Industriel, mostly at master's level, as well as in doctoral and professional training. Today about two thirds of my teaching is in English, for international students.
 
-My courses follow two complementary strands, mirroring my research:
+My courses combine two facets, mirroring my research: **economics**, to analyse the role of AI in organisations, markets and consumer choices; and **data science**, to build and evaluate the models that inform decisions. As generative tools make some technical skills easier to acquire, I put the emphasis on problem structuring, system architecture, understanding business needs and critical thinking.
 
-- **AI as a tool for engineers**: data engineering, machine learning, big data analytics, econometrics.
-- **The economics of organisations and products that integrate AI**: industrial economics, digital organisations, sustainability.
+## Economics
 
-As generative tools make some technical skills easier to acquire, I put the emphasis on problem structuring, system architecture, understanding business needs and critical thinking.
+The economics courses give engineering students the tools to understand the environment of the firm: markets and competition, industrial organisation, vertical relations and platforms, market failures and sustainability. They increasingly address the economics of organisations and products that integrate AI: digital goods and ecosystems, the transformation of industrial organisations, and the trade-offs managers face when adopting new technologies. I use experimental economics in class — for instance choice experiments — to illustrate concepts, then formalise and analyse the data the students produced, and flipped-classroom sessions built on readings and case studies prepared by the students.
 
-## Current courses
+**Associated courses**
 
-| Course | Level | Content |
-|---|---|---|
-| *Smart Analytics for Big Data* | M2, Génie Industriel (in English) | Big data management, data science project management, supervised and unsupervised learning, spatial and temporal data. Co-built with colleagues from LIG, G-SCOP and Polytechnique Montréal. |
-| Machine Learning | M1, Génie Industriel | Stakes of machine learning, overview of supervised methods, model evaluation, strengths and limits. In R. |
-| Data Engineering | M1, Génie Industriel | Data science project management, technical management of data and results, visualisation, societal issues. In R. |
-| *Basic Economics for Sustainable Industrial Engineering* | M1 international (in English) | Markets and competition, consumer and producer, market failures, externalities and sustainable development. |
-| *Industrial Economics for Industrial Engineering* | M1 international (in English) | Market structures, vertical relations, principal–agent, networks and platforms, introduction to econometrics. |
-| Statistics | L3, Génie Industriel | Probability, descriptive and inferential statistics. In R. |
-| *Advanced Discrete Choice Modelling* | Doctoral school of economics, UGA | Random utility models, mixed and latent class logit, choice experiments, willingness to pay and elasticities. In R. |
-| *Introduction to AI System Project Management* | MIAI Summer School | An interactive game on the life cycle of an AI project, and a data challenge on predicting injection-mould production costs. |
+- ***Basic Economics for Sustainable Industrial Engineering*** — M1 international, Génie Industriel (in English). Markets and competition, consumer and producer, market failures, externalities and sustainable development.
+- ***Industrial Economics for Industrial Engineering*** — M1 international, Génie Industriel (in English). Market structures, vertical relations, principal–agent, networks and platforms, introduction to econometrics.
+
+## Data science
+
+The data science courses cover the whole data chain — collection, storage, processing, description, analysis, prediction, prescription and visualisation — with a grounding in statistics and decision theory, a hypothetico-deductive approach and a strong requirement for reproducibility. The aim is to develop decision-support tools driven by the needs of the decision-maker, and to discuss critically when a model is fit for the decision it serves. All courses are taught in R.
+
+**Associated courses**
+
+- ***Advanced Discrete Choice Modelling*** — Doctoral School of Economics, Université Grenoble Alpes. Random utility models, multinomial logit and its extensions (mixed logit, latent class, GEV, hybrid choice models), choice experiments, willingness to pay, marginal effects and elasticities.
+- ***Smart Analytics for Big Data*** — M2, Génie Industriel (in English). Big data management, data science project management, supervised and unsupervised learning, spatial and temporal data. Co-built with colleagues from LIG, G-SCOP and Polytechnique Montréal.
+- **Machine Learning** — M1, Génie Industriel. Stakes of machine learning, overview of supervised methods, model evaluation, strengths and limits.
+- **Data Engineering** — M1, Génie Industriel. Data science project management, technical management of data and results, visualisation, societal issues.
+- **Statistics** — L3, Génie Industriel. Probability, descriptive and inferential statistics.
+- ***Introduction to AI System Project Management*** — MIAI Summer School (international students). An interactive game on the life cycle of an AI project, and a data challenge on predicting injection-mould production costs.
 
 ## Professional training in AI
 
-- **"AI and Applications" certificate** — a full programme to become the AI lead of one's organisation: methods, tools, project management and industrial case studies. Developed for Grenoble INP's professional training department, linked to the MIAI label.
-- **"AI for Manufacturing"** — a two-day course on industrial use cases of AI: quality, maintenance, cost estimation, planning.
-- **Workshops** for company leaders and engineers: AI and its economic, social and environmental stakes; AI project management; needs analysis and AI solution design.
+I am responsible for two AI programmes at Grenoble INP's professional training department, for engineers and managers who are to become the AI leads of their organisation.
 
-See [AI for Industry](industry.qmd) for more on training and support to companies.
+::: {.cases}
+::: {.case}
+#### "AI and Applications" certificate
+[18 days · RNCP certification · eligible for the French CPF]{.sector}
+
+A complete programme to become an AI lead: methods, tools, project management and industrial case studies (health, energy, transport, industry). It covers both the technical and the organisational sides of AI projects — system architecture, project management, skills, environmental, social and regulatory issues. Linked to the MIAI label of the same name.
+:::
+
+::: {.case}
+#### "AI for Industry"
+[2 days · Grenoble INP continuing education]{.sector}
+
+A short course on industrial use cases of AI: quality, maintenance, cost estimation, planning. Built on real cases from my work with manufacturing SMEs.
+:::
+:::
+
+Both programmes use active learning, including serious games designed for the purpose. I also run 3-hour workshops for company leaders and engineers. See [AI for Industry](industry.qmd) for more on training and support to companies.
 
 ## Teaching innovation
 
@@ -40,11 +58,34 @@ International collaborations have shaped several courses: *Smart Analytics for B
 
 ## Programme leadership
 
-- **EFELIA-MIAI** (2019–): co-lead (2019–2023) of the French AI school at Grenoble with J.-L. Roch, representing the Grenoble INP schools; member of the training board — AI labels, grants from L3 to M2, initial and continuing education.
+- **EFELIA-MIAI** — member of the training board (2023–): AI labels for degree programmes, grants from L3 to M2, initial and continuing education, coordination of AI training initiatives across the Grenoble site. Previously co-lead of the French AI school at Grenoble with J.-L. Roch, representing the Grenoble INP schools (2019–2023).
 - **ITICIA** (2024–): training board of the regional AI consortium in Auvergne-Rhône-Alpes.
 - **Génie Industriel**: member of the school's executive board as officer for AI, performance and strategic steering (2019–); head of the Supply Chain Engineering track (2021–2025, about 180 students); coordinator of the Data Science strand of the new curriculum (2021).
 - **EIT Manufacturing** (2021–2024): Grenoble INP lead of *AI for Manufacturing SMEs and Students* and *Digiman*.
 
 ## Past teaching
 
-Before and alongside Génie Industriel, I taught econometrics, statistics, data mining and economics at Université Lumière Lyon 2, Université Grenoble Alpes (Faculty of Economics, IAE), ENSIMAG and the Grenoble INP preparatory classes, as well as SAS, R and statistics training for researchers and staff.
+**Economics**
+
+- *Advanced Economics for Industrial Engineering* — M2, Génie Industriel, in English (2009–2020): industrial organisation, vertical relationships, behavioural economics, market regulation.
+- *Sustainable Economics for Industrial Engineering* — M1 international, Génie Industriel (2014–2024).
+- Transport economics, within *Transport Logistics and Operations Research* — M2, Génie Industriel (2009–2016).
+- Game theory and decision — M2, Génie Industriel (2009–2010).
+- Industrial economics — Grenoble INP preparatory classes, L2 (2011–2018); IAE Grenoble, M1 (2008–2009); Université Lumière Lyon 2, M1 (2001–2003).
+- Economics seminars — M1/M2 *Économistes d'entreprise*, Université Grenoble Alpes (2008–2014).
+- Microeconomics — Université Lumière Lyon 2, L1 and L3 (2001–2007).
+
+**Econometrics and choice modelling**
+
+- *Advanced Discrete Choice Modelling* — Doctoral School of Economics, Université Grenoble Alpes (2017, 2021).
+- Econometrics 3: discrete choice models — M2 C2ES / BDA, Faculty of Economics, Université Grenoble Alpes (2017–2022).
+- Econometrics of qualitative variables (discrete choice models), duration data and panel data — M1, Université Lumière Lyon 2 (2001–2005).
+- Applied econometrics with SAS — M1 and L3, Université Lumière Lyon 2 (2001–2004).
+
+**Statistics and data analysis**
+
+- Data analysis for industrial engineering — M1, Génie Industriel (2013–2024).
+- Data mining — M2 C2ES, Université Grenoble Alpes (2015–2016).
+- Principles and methods of statistics — L3, ENSIMAG (2009–2014).
+- Statistics — Grenoble INP preparatory classes (2011–2012) and continuing education (2009–2020).
+- Training in R, SAS and applied econometrics for PhD students, researchers and staff (ENTPE 2006, Grenoble Université 2008, GAEL 2015).

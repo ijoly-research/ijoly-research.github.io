@@ -93,7 +93,7 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 For **engineers and managers** who are to become the AI leads of their organisation: identify the right use cases, scope a project, work with providers and understand the stakes. In person, inter- or intra-company. Active learning with tailor-made **serious games** and real cases from my projects.
 
 - **"AI and Applications" certificate** — 18 days · RNCP certification · eligible for the French CPF. A complete programme to become an AI lead: methods, tools, project management, industrial cases.
-- **"AI for Manufacturing"** — 2 days · Grenoble INP continuing education. Industrial use cases: quality, maintenance, cost estimation, planning.
+- **"AI for Industry"** — 2 days · Grenoble INP continuing education. Industrial use cases: quality, maintenance, cost estimation, planning.
 - **3-hour workshops** — 10 to 20 participants, 2–3 sessions a year. AI and its economic, social and environmental stakes · AI project management for executives · needs analysis and AI solution design.
 - **AI for Manufacturing (EIT Manufacturing)** — 2021–2024, programme lead. European training programme on AI for manufacturing SMEs and students.
 
