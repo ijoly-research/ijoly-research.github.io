@@ -226,7 +226,7 @@ sort_entries <- function(entries) {
 # Prints a section as a numbered Markdown list
 print_bib_section <- function(path) {
   entries <- sort_entries(read_bib(path))
-  for (e in entries) cat("1. ", format_entry(e), "\n", sep = "")
+  for (e in entries) cat("1. []{#", e$key, "}", format_entry(e), "\n", sep = "")
   cat("\n")
 }
 
@@ -299,4 +299,20 @@ print_short_keys <- function(keys) {
   cat("::: {.pubs .pubs-short}\n\n")
   for (e in entries_by_keys(keys)) cat("- ", format_short(e), "\n", sep = "")
   cat("\n:::\n\n")
+}
+
+# Compact citations "Author et al. (2025)" linking to the entry on the publications page
+cite_label <- function(e) {
+  parts <- trimws(strsplit(f(e, "author"), "\\s+and\\s+")[[1]])
+  first <- trimws(strsplit(parts[1], ",")[[1]][1])
+  who <- if (length(parts) > 2) paste(first, "et al.")
+         else if (length(parts) == 2) paste(first, "&", trimws(strsplit(parts[2], ",")[[1]][1]))
+         else first
+  paste0(who, " (", f(e, "year"), ")")
+}
+
+print_cite_keys <- function(keys, page = "publications.qmd") {
+  cites <- vapply(entries_by_keys(keys), function(e)
+    paste0("[", cite_label(e), "](", page, "#", e$key, ")"), "")
+  cat("[", paste(cites, collapse = " · "), "]{.cites}\n\n", sep = "")
 }

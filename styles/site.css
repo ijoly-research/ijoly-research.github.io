@@ -52,3 +52,8 @@
 
 /* Thesis pages */
 .phd-facts { border-left: 4px solid #CC6E00; padding: .5rem 1rem; margin: 1rem 0 1.5rem; background: rgba(127,127,127,.06); }
+.cites { display: block; font-size: .9rem; line-height: 1.7; }
+.project p { margin-bottom: .5rem; }
+/* Highlight the publication reached from a citation link */
+.pubs li:has(> span:target), .pubs li:has(> p > span:target) { background: rgba(204,110,0,.14); border-radius: 4px; outline: 4px solid rgba(204,110,0,.14); }
+.pubs span:target { scroll-margin-top: 90px; }

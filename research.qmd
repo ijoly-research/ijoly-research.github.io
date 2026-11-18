@@ -50,6 +50,8 @@ The second axis studies the **complementarities between econometric models and m
 
 ## Projects and related publications
 
+Click on a reference to see it in the publication list.
+
 ::: {.project}
 ### ACCEL 4.0 / ACCEL4.S industrial chairs
 [2021– · Grenoble INP · lead of the AI axes]{.meta}
@@ -58,7 +60,7 @@ AI for the circular economy and for sustainable performance, through support to 
 
 ```{r}
 #| results: asis
-print_short_keys(c("Dangetal2026", "KouyoumjiLeDainJoly2025_CE", "KouyoumjiLeDainJoly2024_LCE",
+print_cite_keys(c("Dangetal2026", "KouyoumjiLeDainJoly2025_CE", "KouyoumjiLeDainJoly2024_LCE",
                    "DoanJoly2024_AFIA", "DoanJoly2024_SAGIP", "Joly2025IMS", "Joly2025INSA"))
 ```
 :::
@@ -71,7 +73,19 @@ Opening the hood of an AI system to understand its stakes, from sustainable AI t
 
 ```{r}
 #| results: asis
-print_short_keys(c("Joly2026ITICIA", "Joly2025DigitalLeague"))
+print_cite_keys(c("Joly2025DigitalLeague"))
+```
+:::
+
+::: {.project}
+### ITICIA — AI training consortium
+[2024– · Auvergne-Rhône-Alpes · member of the training board]{.meta}
+
+A consortium of public and private partners creating and promoting a professional training offer in AI for the region: training programmes, their labelling process, and a shared space bringing together the actors of AI in Grenoble.
+
+```{r}
+#| results: asis
+print_cite_keys(c("Joly2026ITICIA"))
 ```
 :::
 
@@ -81,7 +95,7 @@ print_short_keys(c("Joly2026ITICIA", "Joly2025DigitalLeague"))
 
 ```{r}
 #| results: asis
-print_short_keys(c("HernandezMarquinaLeDainJolyZwolinski2024_SPC", "HernandezMarquinaEtAl2023_EurOMA",
+print_cite_keys(c("HernandezMarquinaLeDainJolyZwolinski2024_SPC", "HernandezMarquinaEtAl2023_EurOMA",
                    "HernandezMarquinaLeDainZwolinskiJoly2022_LCE", "UcarLeDainJoly2020_CIRP"))
 ```
 :::
@@ -92,7 +106,7 @@ print_short_keys(c("HernandezMarquinaLeDainJolyZwolinski2024_SPC", "HernandezMar
 
 ```{r}
 #| results: asis
-print_short_keys(c("GusarovJolyLemaire2023ITEA", "GusarovJolyLemaire2023_WCTR",
+print_cite_keys(c("GusarovJolyLemaire2023ITEA", "GusarovJolyLemaire2023_WCTR",
                    "WangLemaireJoly2023_LION", "GusarovTalebiJoly2020_DA2PL"))
 ```
 :::
@@ -103,7 +117,7 @@ print_short_keys(c("GusarovJolyLemaire2023ITEA", "GusarovJolyLemaire2023_WCTR",
 
 ```{r}
 #| results: asis
-print_short_keys(c("CholezEtAl2023_COVoM", "Cholezetal2022", "CholezEtAl2021_ContactTracing"))
+print_cite_keys(c("CholezEtAl2023_COVoM", "Cholezetal2022", "CholezEtAl2021_ContactTracing"))
 ```
 :::
 
@@ -113,7 +127,7 @@ print_short_keys(c("CholezEtAl2023_COVoM", "Cholezetal2022", "CholezEtAl2021_Con
 
 ```{r}
 #| results: asis
-print_short_keys(c("RobcisAffonsoDeCarvalhoJoly2021_AIMS2"))
+print_cite_keys(c("RobcisAffonsoDeCarvalhoJoly2021_AIMS2"))
 ```
 :::
 
