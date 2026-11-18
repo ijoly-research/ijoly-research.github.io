@@ -1,0 +1,16 @@
+---
+title: 'AI for Manufacturing — EIT Manufacturing'
+subtitle: "2021–2024 · Grenoble INP lead"
+toc: false
+---
+
+## The programme
+
+Grenoble INP led its participation in two EIT Manufacturing projects: ***AI for Manufacturing SMEs and Students*** and ***Digiman***. Both delivered training on AI for manufacturing to professionals and students in four countries, in cooperation with companies.
+
+- *AI for Manufacturing SMEs and Students* produced a master's-level module made of **16 case-study "nuggets"** on AI applied to manufacturing, built on the research of the teaching teams; four of them were developed in Grenoble.
+- *Digiman* produced an introductory module on AI for manufacturing.
+
+These projects also led to two online courses, including a MOOC on industrial applications of AI.
+
+[← All training programmes](../../industry.qmd#training-programmes)

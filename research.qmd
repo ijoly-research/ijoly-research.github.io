@@ -1,52 +1,167 @@
 ---
 title: "Research"
+page-layout: full
+toc: false
 ---
 
-My research in applied micro-econometrics deals with **complex economic data**: individual or managerial behaviour, hard-to-observe dimensions such as environmental motivations, preferences, trust or reputation, and strong heterogeneity across individuals and firms. The goal is often to produce **decision-support indicators** — willingness to pay, elasticities, effects of public policies, cost estimates.
+```{r}
+source("R/bib.R")
+```
 
-Machine learning methods offer high predictive power and scale to large datasets. Econometric models remain stronger for interpretation, causal identification and grounding in economic theory. My work aims to **combine both approaches**, so that models are at the same time accurate, interpretable and useful for the decision they serve.
+::: {.home-wrap}
 
-A common thread across my publications is the question of the **fit between models, data and uses**: how the characteristics of the data (size, imbalance, latent or endogenous variables) affect estimates, the indicators derived from them, and ultimately the decisions they inform.
+My research studies **decision-making in firms and by consumers**, and the **design of data-driven decision-support tools built on artificial intelligence**. Two questions run through it: how do managers and consumers decide when they face AI and digital tools? And how can we design models and tools that are both accurate and genuinely useful for the decisions they serve?
+
+To answer them, I combine applied econometrics — discrete choice, duration and structural equation models — with data science and machine learning, and I work directly with companies through action research. The economic perspective is central: a decision-support tool is valuable only if it improves decisions, at a cost, and with impacts, that the organisation can bear.
+
+:::: {.home-grid}
+
+::: {.home-main}
+
+## AI in firms: decisions, tools and sustainability
+
+Since 2020, I have supported small and medium-sized manufacturers in their AI projects through the **ACCEL 4.0 and ACCEL4.S industrial chairs**. This action research provides both real use cases — production cost estimation, predictive maintenance, process optimisation, planning — and a field for studying the **economics of AI adoption**:
+
+- **How firms decide.** Drawing on a dozen industrial cases, I study how managers decide to start, scope and pursue AI projects: expected and realised returns on investment, implementation and maintenance costs, data and skills requirements, and the blind spots of these decisions — data governance and security, regulation, environmental and social impacts.
+- **Behaviour facing AI.** How decision-makers use, trust and appropriate AI-based tools, and how these tools change the way decisions are made in the organisation.
+- **Designing decision-support tools.** My approach starts from the decision to be supported and its operational constraints, then identifies the relevant models, and only then the data they require. Tools are assessed against classic performance criteria (cost, quality, lead time) *and* the three dimensions of sustainability — environmental, economic and social.
+
+Two ongoing PhD theses develop the sustainability side of this agenda:
+
+- **AI and the circular economy.** [Paola Kouyoumji](phd/kouyoumji.qmd) studies how data and AI can support SMEs in moving to circular business models, and whether AI used for the circular economy actually serves sustainability.
+- **AI, energy efficiency and rebound effects.** [Nhung Dang](phd/dang.qmd) studies AI as a lever for energy efficiency in SMEs, the conditions for real savings, and the rebound effects that may offset them.
+
+These theses follow earlier work on **circular supply chains** with [Maria Victoria Hernandez Marquina](phd/hernandez-marquina.qmd), which showed the role of trust in collaboration and sustainable performance between partners.
+
+On the consumer side, the ANR project **COVoM** studied how people used contact-tracing apps during the COVID-19 crisis, comparing countries and highlighting the role of trust in technologies and institutions.
 
 ## Econometrics and machine learning
 
-This first axis studies the complementarities between econometric models and machine learning, using AI as a tool for applied research.
+The second axis studies the **complementarities between econometric models and machine learning**, and how to evaluate models for the decisions they inform. Machine learning offers high predictive power; econometric models remain stronger for interpretation, causal identification and economic indicators such as willingness to pay or elasticities. A common thread is the fit between **models, data and uses**: how data characteristics — size, imbalance, latent or endogenous variables — affect estimates, the indicators derived from them, and ultimately decisions.
 
-- **Model comparison for economic indicators.** Comparing econometric models for prediction, explanation and the derivation of economic indicators (price elasticities, willingness to pay) on real travel-behaviour data ([Bouscasse et al., 2019](publications.qmd)).
-- **Neural networks vs. mixed logit models.** In Nikita Gusarov's PhD (2020–2024), we compared neural networks designed to estimate utility functions with mixed logit models. Neural networks often predict better, while econometric models remain more reliable for interpretable indicators. Evaluation goes beyond predictive accuracy to include decision quality, computation time and data characteristics (sample size, balance, complexity).
-- **Manufacturing cost estimation.** Nhung Dang's ongoing PhD transposes this approach to production cost prediction, comparing structural equation models and machine learning with multi-objective criteria adapted to industrial decision-making, and treating product and process complexity as a latent dimension.
-- **Data science and operations research.** Yuzhen Wang's work combined data analysis and operations research for Industry 4.0, studying variants of nearest-neighbour algorithms (feature weighting by linear programming) and the conditions under which each performs best.
+- **Choice models and economic indicators.** With [Hélène Bouscasse](phd/bouscasse.qmd), we compared specifications of choice models for prediction, explanation and the derivation of willingness to pay and elasticities on travel-behaviour data.
+- **Neural networks vs. mixed logit.** [Nikita Gusarov](phd/gusarov.qmd)'s thesis proposed a unified framework to compare econometric and machine learning models, including decision quality, computation time and data characteristics.
+- **Manufacturing cost estimation.** Structural equation models vs. machine learning for production cost prediction, with multi-objective criteria adapted to industrial decisions, and product and process complexity as a latent dimension (with Nhung Dang).
+- **Data science and operations research.** With [Yuzhen Wang](phd/wang.qmd), feature weighting for nearest-neighbour algorithms by linear programming, and the conditions under which each variant performs best.
 
-## AI in firms and society
+:::
 
-The second axis looks at AI as an economic object: how firms and consumers actually adopt and use it.
+::: {.home-side}
 
-- **AI adoption in SMEs.** Through action research with small and medium-sized manufacturers since 2020 (ACCEL 4.0 and ACCEL4.S chairs), I analyse around a dozen industrial cases: return on investment, implementation and maintenance costs, skills, and the blind spots of decision processes — data governance and security, regulation, environmental and social impacts.
-- **Circular supply chains.** Two PhDs co-supervised with colleagues from G-SCOP (Maria Victoria Hernandez Marquina, Paola Kouyoumji) study how circular supply chains are built, using mixed methods to analyse trade-offs between performance, risk, commitment and trust between partners, and the role of data and AI in the transition of SMEs to circular business models.
-- **Digital tools and consumers.** The ANR project COVoM (2021–2022) analysed the use of contact-tracing apps during the COVID-19 crisis, comparing countries through a quantitative survey and interviews, with a focus on trust in technologies and institutions.
+## Projects and related publications
 
-## Earlier work
+::: {.project}
+### ACCEL 4.0 / ACCEL4.S industrial chairs
+[2021– · Grenoble INP · lead of the AI axes]{.meta}
 
-My PhD and early research dealt with **transport economics and travel behaviour**: travel time budgets and the "Zahavi conjecture", activity and travel time allocation, and duration models applied to large mobility surveys in French and Swiss cities. I also worked on consumer preferences for eco-innovative products, the longevity of agricultural cooperatives, and reputation in creative industries.
+AI for the circular economy and for sustainable performance, through support to manufacturing SMEs.
 
-## Research projects
+```{r}
+#| results: asis
+print_short_keys(c("Dangetal2026", "KouyoumjiLeDainJoly2025_CE", "KouyoumjiLeDainJoly2024_LCE",
+                   "DoanJoly2024_AFIA", "DoanJoly2024_SAGIP", "Joly2025IMS", "Joly2025INSA"))
+```
+:::
 
-**Current**
+::: {.project}
+### AI demonstrator — MIAI Grenoble Alpes
+[2026–2029]{.meta}
 
-- **ACCEL4.S** — *Accelerator towards a sustainable industry: from research to skills* (2025–), industrial chair led by E. Perret and M.-A. Le Dain. I lead the two AI-focused axes: AI for the circular economy, and AI for sustainable performance (environmental, economic and social). Support to SMEs provides real use cases: production cost prediction, predictive maintenance, process optimisation.
-- **AI demonstrator — MIAI Grenoble Alpes** (2026–2029): opening the hood of an AI system to understand its stakes, from sustainable AI to industrial integration and the transformation of jobs.
+Opening the hood of an AI system to understand its stakes, from sustainable AI to industrial integration and the transformation of jobs.
 
-**Past (selection)**
+```{r}
+#| results: asis
+print_short_keys(c("Joly2026ITICIA", "Joly2025DigitalLeague"))
+```
+:::
 
-- ACCEL 4.0 industrial chair — AI for manufacturing (2021–2025)
-- ANR COVoM — *Covid on My Mobile*, contact-tracing apps (2021–2022)
-- IDEX CDP Circular — circular supply chains
-- MIAI chair *AI for data-driven and self-configurable supply chains*
-- EIT Manufacturing — *AI for Manufacturing SMEs and Students* (2021–2024)
-- PREDIT and ANR Eurocities DATTA — travel time budgets and urban mobility
+::: {.project}
+### Circular supply chains — IDEX CDP Circular
+[IDEX Université Grenoble Alpes · with G-SCOP]{.meta}
+
+```{r}
+#| results: asis
+print_short_keys(c("HernandezMarquinaLeDainJolyZwolinski2024_SPC", "HernandezMarquinaEtAl2023_EurOMA",
+                   "HernandezMarquinaLeDainZwolinskiJoly2022_LCE", "UcarLeDainJoly2020_CIRP"))
+```
+:::
+
+::: {.project}
+### AI and econometrics — MIAI chairs
+[Multidisciplinary Institute in Artificial Intelligence · with G-SCOP]{.meta}
+
+```{r}
+#| results: asis
+print_short_keys(c("GusarovJolyLemaire2023ITEA", "GusarovJolyLemaire2023_WCTR",
+                   "WangLemaireJoly2023_LION", "GusarovTalebiJoly2020_DA2PL"))
+```
+:::
+
+::: {.project}
+### COVoM — Covid on My Mobile (ANR)
+[2021–2022]{.meta}
+
+```{r}
+#| results: asis
+print_short_keys(c("CholezEtAl2023_COVoM", "Cholezetal2022", "CholezEtAl2021_ContactTracing"))
+```
+:::
+
+::: {.project}
+### AI for Manufacturing — EIT Manufacturing
+[2021–2024 · Grenoble INP lead]{.meta}
+
+```{r}
+#| results: asis
+print_short_keys(c("RobcisAffonsoDeCarvalhoJoly2021_AIMS2"))
+```
+:::
+
+:::
+
+::::
+
+## From modelling behaviour to deciding with AI
+
+My current work continues a long-standing thread: **modelling behaviour and choices from data**. It started with travel behaviour observed in large mobility surveys, moved to consumer choices in experimental and survey settings, then to the comparison of econometric and machine learning models. Today, the same tools serve to understand how firms and consumers behave and decide **when facing AI and digital tools**.
+
+::: {.cols-2}
+
+::: {}
+### Transport and the allocation of time
+
+My PhD (Université Lumière Lyon 2, 2005) and my HDR (2017, *Modelling derived consumption behaviour: the case of travel time*) dealt with **travel time budgets**. The "Zahavi conjecture" states that people spend, on average, about one hour a day travelling, whatever the city or the period — which links speed, distance and urban sprawl.
+
+- **Accessibility fuels mobility.** Comparing cities, we showed that accessibility gains do not reduce travel time or distance: time saved is reinvested in more travel, suggesting a latent demand for mobility.
+- **Intensive commuters.** Applying duration models to 17 mobility surveys from eight Belgian, French and Swiss cities (about 60,000 people), we identified a threshold beyond which resistance to extra travel time decreases — the emergence of "intensive commuters".
+- **Travel and activities.** Travel time is a demand derived from participation in activities. Its relation with activity durations is non-linear and depends on residential location; daily activity sequences were modelled with semi-Markov processes.
+
+Key publications: *International Journal of Transport Economics* (2006), *Transport Policy* (2011), *Transportation Research Record* (2009), *Les Cahiers Scientifiques du Transport* (2004, 2012), *European Transport Research Review* (2016).
+:::
+
+::: {}
+### Consumer choices and model performance
+
+Joining GAEL opened my work to new choice contexts and to **experimental economics**, with a focus on discrete choice models, latent variables and the quality of economic indicators.
+
+- **Preferences for sustainable products.** Real choice experiments measured willingness to pay for the environmental attributes of non-food products and for upgradeable eco-innovative products.
+- **Latent dimensions.** Structural equation models linked reputation and fame in creative industries; duration models studied the survival of agricultural cooperatives.
+- **Psychology and habits.** How environmental concern shapes mode choice habits, and how to integrate psychological variables in hybrid choice models.
+- **Model specification.** A new family of choice models based on reference models and generalised linear models, and simulation studies of willingness-to-pay estimates.
+
+This line of work led directly to the comparison of econometric and machine learning models in [Nikita Gusarov](phd/gusarov.qmd)'s thesis.
+
+Key publications: *European Review of Agricultural Economics* (2013), *International Journal of Sustainable Development* (2017), *Organization Studies* (2017), *Transportation Research Part D* (2018), *Transportation Research Part B* (2019).
+:::
+
+:::
+
+[All publications →](publications.qmd)
 
 ## Reviewing and expertise
 
 **Reviewer** for *Transportation*, *European Transport Research Review*, *Journal of Choice Modelling*, *European Review of Agricultural Economics*, *Review of Agricultural and Environmental Studies*, *Les Cahiers Scientifiques du Transport*, *Recherche Transports Sécurité*, *Revue Internationale de Géomatique*, the World Conference on Transport Research and the European Transport Conference.
 
 **Expertise** for CIFRE PhD funding (2024), the Rhône-Alpes ARC7 research community (2010–2015), the Rhône-Alpes cluster programme (2013), PREDIT (2005, 2011) and PUCA (2007).
+
+:::

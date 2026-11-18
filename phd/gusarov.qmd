@@ -1,0 +1,31 @@
+---
+title: "Performances des modèles économétriques et de Machine Learning pour l'étude économique des choix discrets de consommation"
+subtitle: "PhD thesis of Nikita Gusarov · Université Grenoble Alpes, 2024"
+---
+
+```{r}
+#| results: asis
+source("../R/phd.R")
+phd_facts("gusarov")
+```
+
+## Summary
+
+This thesis is a cross-disciplinary study of discrete choice modelling, at the crossroads of econometrics and machine learning. Economists and engineers on one side, data scientists on the other, often use similar techniques for individual choice modelling while pursuing different objectives, with few points of contact between them.
+
+To bridge this gap, the thesis proposes a **unified framework for analysing model performance**. The framework compares data analysis techniques under varying assumptions and transformations, and is suitable for a wide range of econometric and machine learning models. It treats performance comparison as part of the whole research procedure, including every step that can affect how performance is perceived.
+
+Three applied studies illustrate the framework, exploring model performance when facing:
+
+1. changes in **sample size and balance** resulting from data collection;
+2. changes in the **structure of preferences** within the population, reflecting incorrect behavioural assumptions;
+3. **model selection**, which is directly intertwined with the perception of performance.
+
+The thesis was defended on 19 February 2024 at Grenoble INP – UGA. [Thesis page at G-SCOP](https://g-scop.grenoble-inp.fr/fr/production/these-nikita-gusarov)
+
+## Publications from the thesis
+
+```{r}
+#| results: asis
+phd_publications("Gusarov")
+```

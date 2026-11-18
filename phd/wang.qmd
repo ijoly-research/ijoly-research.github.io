@@ -1,0 +1,23 @@
+---
+title: "Coopération de méthodes de Recherche Opérationnelle et de Sciences des données pour la modélisation et l'analyse de systèmes dans le cadre de l'industrie 4.0"
+subtitle: "PhD research of Yuzhen Wang · Grenoble INP – UGA, 2020–2023"
+---
+
+```{r}
+#| results: asis
+source("../R/phd.R")
+phd_facts("wang")
+```
+
+## Summary
+
+This doctoral research combined **data analysis and operations research** to solve problems arising in the context of Industry 4.0. It focused on **nearest-neighbour (k-NN) algorithms** and their variants: how weighting the features of a distance, computed by linear programming, can improve predictive performance, and how predictive and computational performance depend on the characteristics of the models and of the datasets.
+
+The aim was to identify, in a comparative way, the conditions under which each algorithm is best suited to a given context.
+
+## Publications
+
+```{r}
+#| results: asis
+phd_publications("Wang, Y.")
+```

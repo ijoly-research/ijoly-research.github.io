@@ -1,0 +1,25 @@
+---
+title: "Exploitation des données et Intelligence Artificielle pour la transition des PME vers des modèles d'affaires circulaires"
+subtitle: "PhD thesis of Paola Kouyoumji · Grenoble INP – UGA, ongoing"
+---
+
+```{r}
+#| results: asis
+source("../R/phd.R")
+phd_facts("kouyoumji")
+```
+
+## Summary
+
+Small and medium-sized manufacturers are expected to play a central role in the transition to the circular economy, but they often lack the resources, data and skills to do so. Digital technologies and artificial intelligence are frequently presented as enablers of this transition.
+
+This thesis studies how **data and AI can support SMEs in moving towards circular business models**, and under which conditions. It looks at the economic side of these decisions: what managers expect from AI, the trade-offs between performance, risks and costs, and the role of commitment and trust between the partners of a circular supply chain. A key question is whether AI used for the circular economy actually serves **sustainability**, once the resources and impacts of AI systems themselves are taken into account.
+
+The research follows a mixed approach, combining qualitative and quantitative methods.
+
+## Publications from the thesis
+
+```{r}
+#| results: asis
+phd_publications("Kouyoumji")
+```

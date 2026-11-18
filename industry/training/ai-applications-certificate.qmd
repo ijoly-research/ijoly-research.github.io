@@ -1,0 +1,24 @@
+---
+title: '"AI and Applications" certificate'
+subtitle: "18 days · RNCP certification · eligible for the French CPF"
+toc: false
+---
+
+## Who it is for
+
+Engineers and managers who are to become the **AI leads** of their organisation: identify the right use cases, scope a project, work with providers and understand the stakes.
+
+## Content
+
+A complete programme combining methods, tools, project management and industrial case studies from several sectors — health, energy, transport, industry. It covers both the **technical** and the **organisational** sides of AI projects:
+
+- architecture of AI systems and data management;
+- AI project management, from needs analysis to deployment;
+- skills and organisation;
+- environmental, social and regulatory issues.
+
+## Format
+
+Delivered by Grenoble INP's professional training department (a Qualiopi-certified provider). Linked to the MIAI label of the same name. Active learning with serious games and real cases.
+
+[← All training programmes](../../industry.qmd#training-programmes)

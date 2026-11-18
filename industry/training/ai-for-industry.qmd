@@ -1,0 +1,19 @@
+---
+title: '"AI for Industry"'
+subtitle: "2 days · Grenoble INP continuing education"
+toc: false
+---
+
+## Who it is for
+
+Engineers, managers and executives of industrial companies who want a concrete view of what AI can do for their operations.
+
+## Content
+
+Industrial use cases of AI — **quality, maintenance, cost estimation, planning** — built on real cases from my work with manufacturing SMEs: what each use case requires in terms of data, skills and organisation, what it costs, and what it brings.
+
+## Format
+
+Two days, delivered by Grenoble INP's professional training department, inter- or intra-company.
+
+[← All training programmes](../../industry.qmd#training-programmes)

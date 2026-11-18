@@ -1,0 +1,21 @@
+---
+title: "Modélisation économique et optimisation de circuits courts logistiques"
+subtitle: "PhD research of Natalia Duarte Ferrin · Grenoble INP, 2012–2015"
+---
+
+```{r}
+#| results: asis
+source("../R/phd.R")
+phd_facts("duarte-ferrin")
+```
+
+## Summary
+
+This doctoral research brought together **economics and operations research** to study the logistics of short food supply chains. It analysed the solutions of vehicle routing problems with capacity constraints (CVRP) from an economic point of view, using econometric methods to assess their economic efficiency.
+
+## Publications
+
+```{r}
+#| results: asis
+phd_publications("Duarte Ferrin")
+```

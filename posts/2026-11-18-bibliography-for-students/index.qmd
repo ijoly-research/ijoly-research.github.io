@@ -1,0 +1,100 @@
+---
+title: "Managing your bibliography: a guide for master's students"
+date: 2026-11-18
+categories: [students, research methods, tools]
+description: "Why references matter in scientific work, and how to manage them efficiently — from Zotero and Mendeley to BibTeX files used in LaTeX, RStudio and Quarto."
+engine: markdown
+---
+
+Whether you write an M1 research project, an M2 thesis or an internship report, your bibliography is not a list you put together the night before submitting. It is part of the scientific work itself. This post explains why it matters, and how to equip yourself so that it takes as little time as possible.
+
+## Why references matter
+
+**Science is cumulative.** Your work builds on what others have done. Citing the sources lets the reader see where your question comes from, what is already known, and what you add.
+
+**References make your work verifiable.** A reader — your supervisor, a jury, a reviewer — must be able to go back to each source and check what it actually says. A claim without a source is an opinion; a figure without a source cannot be trusted.
+
+**Citing is a matter of integrity.** Using someone else's ideas, results, figures or wording without citing them is plagiarism, even if you rephrase. Generative AI tools make this risk higher: they produce text without sources, and sometimes invent references that do not exist. **Never cite a reference you have not opened and checked yourself.**
+
+**A good bibliography shows that you know your field.** It tells the reader which literature you rely on, and whether you have looked at the important, recent and peer-reviewed work.
+
+## Good practices
+
+- **Prefer scientific sources**: peer-reviewed journal articles, books from academic publishers, conference proceedings, theses, official statistics and reports. Use Wikipedia, blogs or news articles to discover a topic, not as the source of a scientific claim.
+- **Go back to the original source** rather than citing a paper through another paper.
+- **Record each reference as soon as you read it**, with its full metadata (authors, year, title, journal, volume, pages, DOI). Searching for the details of a paper you read three months ago takes much longer.
+- **Keep your notes with the reference**: what the paper does, its data and method, its main result, and why it matters for your work.
+- **Cite consistently**: one citation style for the whole document, and every work cited in the text appears in the bibliography — and vice versa.
+- **Use the DOI** whenever there is one: it identifies the paper permanently and lets anyone find it.
+
+## Tools to manage references
+
+You should not type references by hand. Reference managers store the metadata, generate citations in the style you need, and update the bibliography automatically.
+
+### Zotero and Mendeley
+
+[Zotero](https://www.zotero.org/) (free and open source) and Mendeley are the most widely used reference managers. They:
+
+- capture references from your browser in one click, from a journal page, Google Scholar or a library catalogue;
+- store and organise your PDF files, with notes and annotations;
+- insert citations and bibliographies in **Word** or LibreOffice through a plug-in, in hundreds of citation styles.
+
+They are a good choice if you write in Word, and to manage your PDF library.
+
+### BibTeX: the simplest and most portable solution
+
+For scientific writing, the simplest solution in the long run is a **BibTeX file** (`.bib`). It is a plain text file in which each reference is described by its fields:
+
+```bibtex
+@article{Michaud2013,
+  author  = {Michaud, C. and Llerena, D. and Joly, I.},
+  year    = {2013},
+  title   = {Willingness to pay for environmental attributes of non-food products},
+  journal = {European Review of Agricultural Economics},
+  volume  = {40},
+  number  = {2},
+  pages   = {313--329}
+}
+```
+
+`@article` is the type of reference (others include `@book`, `@incollection`, `@inproceedings`, `@phdthesis`); `Michaud2013` is the **citation key** you use in your text.
+
+A `.bib` file works with all the editing tools used in science and data science:
+
+- **LaTeX** and Overleaf, with `\cite{Michaud2013}`;
+- **R Markdown and Quarto** in RStudio, with `@Michaud2013`;
+- Jupyter notebooks and Pandoc;
+- and it can be imported into Zotero or Mendeley.
+
+You rarely need to type entries yourself: Google Scholar, journal websites and DOI services all export BibTeX, and Zotero can export your library to a `.bib` file (the *Better BibTeX* extension keeps it updated automatically).
+
+### Citing in RStudio with Quarto or R Markdown
+
+1. Put your `.bib` file next to your document and declare it in the header:
+
+    ```yaml
+    bibliography: references.bib
+    link-citations: true
+    ```
+
+2. Cite in the text:
+
+    - `@Michaud2013 show that...` gives *Michaud et al. (2013) show that...*;
+    - `... is well documented [@Michaud2013]` gives *... is well documented (Michaud et al., 2013)*;
+    - several references: `[@Michaud2013; @Bouscasse2018]`.
+
+3. Render the document: the bibliography is added at the end, in the style of your choice (set it with `csl:`).
+
+To list references in the bibliography without citing them in the text, add `nocite: '@*'` (all references) or `nocite: '@key1, @key2'` to the header.
+
+### Converting an existing list of references
+
+If you already have a list of references as plain text, tools such as [text2bib](https://text2bib.economics.utoronto.ca/) convert it to BibTeX. Check each entry: conversion works well for articles and books, less well for conference papers and working papers.
+
+## In short
+
+1. Record every reference as soon as you read it, with its DOI and your notes.
+2. Use a reference manager — Zotero if you write in Word, a `.bib` file if you write with LaTeX, RStudio or Quarto.
+3. Never cite a source you have not checked yourself.
+
+**Further reading:** [Citations in Quarto](https://quarto.org/docs/authoring/citations.html) · [Zotero documentation](https://www.zotero.org/support/) · [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/)

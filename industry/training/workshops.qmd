@@ -1,0 +1,19 @@
+---
+title: '3-hour workshops'
+subtitle: "10 to 20 participants · 2–3 sessions a year"
+toc: false
+---
+
+## Topics
+
+- **AI and its stakes** — economic, social and environmental.
+- **AI project management for executives** — the phases of an AI project, from needs analysis to the technical solution and its deployment.
+- **Needs analysis and AI solution design.**
+
+## Format
+
+Workshops are built around **serious games** designed for the purpose, followed by a debriefing on real cases. They have been run at the MIAI Summer School, Université Grenoble Alpes events on professional training, and the Cap'IA day, among others.
+
+At the MIAI Summer School, the workshop *Introduction to AI System Project Management* combines an interactive game covering the life cycle of an AI project with a **data challenge** on predicting the production cost of plastic injection moulds from a real industrial dataset.
+
+[← All training programmes](../../industry.qmd#training-programmes)

@@ -1,0 +1,65 @@
+---
+title: "Making the most of an internship with me"
+date: 2026-11-18
+categories: [students, internships]
+description: "Practical advice for interns and master's students: meeting agendas, slides, minutes, and shared files."
+engine: markdown
+---
+
+Whether you join me for a research internship, an end-of-studies project or a master's thesis, a large part of what makes an internship successful is not technical: it is how we **work together**. Here are the habits I ask of every intern. They will serve you well in any company or laboratory.
+
+## Before a meeting: send an agenda
+
+Send a short agenda **the day before** each meeting (by email or in our shared folder). It should list:
+
+- the **purpose** of the meeting;
+- the **points** to discuss, in order of priority;
+- for each point, what you expect: information, a discussion, or a **decision**;
+- the documents to read beforehand, with a link.
+
+An agenda makes you prepare, lets me prepare too, and keeps the meeting focused on what matters.
+
+## During a meeting: lead it with slides
+
+**Always prepare a few slides** to lead the meeting, even for a 30-minute weekly point. It is your meeting: you lead it.
+
+- Start with a reminder of the objectives and of what was decided last time.
+- Show what you did since the last meeting: results, figures, tables — not just text.
+- Present the difficulties you met and the **questions** you need answered.
+- End with the next steps you propose.
+
+Slides force you to structure your thinking, and they give us a shared support to discuss, annotate and decide on. They also build, week after week, the material for your final presentation.
+
+## After a meeting: write the minutes
+
+Send the **minutes of meeting (MoM)** within 24 hours. They do not need to be long:
+
+| Item | Content |
+|---|---|
+| Date and participants | Who was there |
+| Decisions | What we decided, and why if useful |
+| Actions | **Who** does **what**, by **when** |
+| Open questions | What remains to be clarified |
+| Next meeting | Date and expected topics |
+
+The minutes are our common memory. They avoid misunderstandings, and the action list becomes the starting point of the next agenda.
+
+## Manage your files online and share them
+
+Work in a **shared cloud folder** from day one (the one we agree on at the start: the university's cloud, a shared drive, or a Git repository for code).
+
+- **Organise** the folder: for example `01_admin`, `02_literature`, `03_data`, `04_code`, `05_results`, `06_meetings`, `07_report`.
+- **Name files clearly** and consistently, with the date first: `2026-11-18_meeting-slides.pptx`, `2026-11-18_MoM.docx`.
+- **Never work only on your laptop**: if it breaks, your work must not disappear with it.
+- **Version** your work: keep important versions, and use Git for code.
+- **Keep your raw data untouched** and document every transformation, so that your results can be reproduced.
+- **Respect confidentiality**: company data stay in the space agreed with the company.
+
+## A few more habits
+
+- **Keep a logbook**: what you did each day, what you tried, what worked and what did not. It saves hours when writing the report.
+- **Ask questions early.** Being stuck for two days on a problem that a five-minute discussion would solve is a waste of your internship.
+- **Manage your bibliography from the start** — see [Managing your bibliography](../2026-11-18-bibliography-for-students/index.qmd).
+- **Write as you go**: draft the method and data sections of your report as soon as they are stable.
+
+These habits take a little time each week, and save a lot of it overall. They also show your future employers that you know how to work in a team.

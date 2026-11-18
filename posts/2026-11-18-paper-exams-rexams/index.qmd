@@ -1,0 +1,50 @@
+---
+title: "Paper multiple-choice exams with R/exams"
+date: 2026-11-18
+categories: [teaching, R, R/exams]
+description: "Generate individual paper exams, scan them and grade them automatically."
+draft: true
+---
+
+<!--
+DRAFT — not published (draft: true).
+Structure proposed; to be completed with the details of your own workflow.
+Remove "draft: true" above to publish.
+-->
+
+Companion to [Writing Moodle quizzes in R with R/exams](../2019-11-04-rexams-moodle-caseine/index.qmd): the same question files can also produce **paper exams**, scanned and graded automatically.
+
+## Why paper exams?
+
+<!-- Context: exam rooms, number of students, fraud, equity, no computers... -->
+
+## Reusing the Moodle question bank
+
+<!-- Same .Rmd questions as for Moodle; which question types work on paper (schoice, mchoice, num?); what needs adapting. -->
+
+## Generating individual versions with `exams2nops()`
+
+<!-- Generator script; number of versions; random draw and shuffling; title, institution, language, logo; registration number grid; points and negative marking. -->
+
+```r
+# example to complete
+exams2nops(myexo, n = 150, dir = "out", name = "exam",
+           title = "...", institution = "Grenoble INP – Génie Industriel",
+           language = "en", reglength = 8)
+```
+
+## Printing and running the exam
+
+<!-- Printing tips (recto/verso, no scaling), instructions to students for filling the answer sheet, collecting sheets. -->
+
+## Scanning and automatic grading
+
+<!-- nops_scan() on scanned PDFs or images; scanner settings; checking unreadable sheets; nops_eval() with the student list; partial credit rules. -->
+
+## Results and feedback to students
+
+<!-- Export of marks (CSV for the school's information system); individual HTML feedback for each student; statistics on questions. -->
+
+## Lessons learned
+
+<!-- What went well, pitfalls (encoding, fonts, scanning quality, student IDs), time saved. -->

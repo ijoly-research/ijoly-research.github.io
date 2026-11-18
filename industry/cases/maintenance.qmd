@@ -1,0 +1,19 @@
+---
+title: "Prioritising maintenance"
+subtitle: "Case study · Manufacturing SME"
+toc: false
+---
+
+## Challenge
+
+Give the planner a clear view of the condition of critical equipment.
+
+## Approach
+
+Equipment scoring method based on machine data.
+
+## Result
+
+Synthetic information to prioritise interventions.
+
+[← All case studies](../../industry.qmd#case-studies)

@@ -1,0 +1,25 @@
+---
+title: "Artificial Intelligence as a Lever for Energy Efficiency in SMEs: Economic Implications and Strategic Recommendations"
+subtitle: "PhD thesis of Nhung Dang · Grenoble INP – UGA, ongoing"
+---
+
+```{r}
+#| results: asis
+source("../R/phd.R")
+phd_facts("dang")
+```
+
+## Summary
+
+AI is increasingly promoted as a way for industrial firms to reduce their energy consumption, through better monitoring, prediction and optimisation of processes. Yet AI systems also consume resources, and efficiency gains can be partly offset by **rebound effects**, when savings lead to more production or more use.
+
+This thesis studies **AI as a lever for energy efficiency in SMEs** from an economic perspective: under which conditions AI projects deliver real energy savings, how firms decide to invest in them, how rebound effects can be measured, and what recommendations follow for firms and public policy. It builds on use cases from SMEs supported by the ACCEL4.S industrial chair.
+
+The thesis follows Nhung Dang's earlier work on **manufacturing cost estimation**, which compared structural equation models and machine learning, and integrated the complexity of products and processes as a latent dimension.
+
+## Publications from the thesis
+
+```{r}
+#| results: asis
+phd_publications("Dang")
+```

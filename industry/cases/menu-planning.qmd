@@ -1,0 +1,19 @@
+---
+title: "Menu planning"
+subtitle: "Case study · Institutional catering"
+toc: false
+---
+
+## Challenge
+
+Balance cost, feasibility, compliance with the EGalim law and diner satisfaction.
+
+## Approach
+
+Multi-criteria scoring of menus for the dietitian who plans them.
+
+## Result
+
+Faster, more objective trade-offs.
+
+[← All case studies](../../industry.qmd#case-studies)

@@ -56,6 +56,26 @@ I apply these methods to two main fields: **consumer behaviour** with an environ
 
 ::: {.home-side}
 
+## Ongoing projects
+
+- **AI demonstrator — MIAI Grenoble Alpes** (2026–2029). Opening the hood of an AI system to understand its stakes, from sustainable AI to industrial integration and the transformation of jobs.
+- **ACCEL 4.0 / ACCEL4.S industrial chairs** (2021–). Lead of the AI axes: AI for the circular economy and for sustainable performance, through support to manufacturing SMEs.
+
+```{r}
+#| results: asis
+phd <- read.csv("data/phd-supervision.csv", encoding = "UTF-8", stringsAsFactors = FALSE)
+phd <- phd[phd$outcome == "Ongoing", ]
+for (i in seq_len(nrow(phd))) {
+  cat("- **PhD thesis of ", phd$student[i], "** (", phd$period[i], "). [*", phd$title[i],
+      "*](phd/", phd$slug[i], ".qmd)\n", sep = "")
+}
+cat("\n[Research and projects →](research.qmd)\n")
+```
+
+:::
+
+::::
+
 ## Recent publications
 
 ```{r}
@@ -63,34 +83,10 @@ I apply these methods to two main fields: **consumer behaviour** with an environ
 recent <- recent_items(c(
   "data/bib/articles-comite-lecture.bib",
   "data/bib/actes-colloques-comite.bib"
-), n = 5)
+), n = 6)
 cat("::: {.pubs}\n")
 for (e in recent) cat("- ", format_entry(e), "\n", sep = "")
 cat(":::\n\n[All publications and talks →](publications.qmd)\n")
 ```
-
-## Ongoing projects
-
-- **AI demonstrator — MIAI Grenoble Alpes** (2026–2029). Opening the hood of an AI system to understand its stakes, from sustainable AI to industrial integration and the transformation of jobs.
-- **ACCEL 4.0 / ACCEL4.S industrial chairs** (2021–). Lead of the AI axes: AI for the circular economy and for sustainable performance, through support to manufacturing SMEs.
-
-[Research projects →](research.qmd#research-projects)
-
-## Ongoing PhD theses
-
-```{r}
-#| results: asis
-phd <- read.csv("data/phd-supervision.csv", encoding = "UTF-8", stringsAsFactors = FALSE)
-phd <- phd[phd$outcome == "Ongoing", ]
-for (i in seq_len(nrow(phd))) {
-  cat("- **", phd$student[i], "** (", phd$period[i], "). *", phd$title[i], "*. ",
-      "Co-supervision ", phd$co_supervision[i], ".\n", sep = "")
-}
-cat("\n[All supervision →](supervision.qmd)\n")
-```
-
-:::
-
-::::
 
 :::

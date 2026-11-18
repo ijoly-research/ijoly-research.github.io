@@ -1,0 +1,29 @@
+---
+title: "Essays on travel mode choice modeling: a discrete choice approach of the interactions between economic and behavioral theories"
+subtitle: "PhD thesis of Hélène Bouscasse · Université de Lyon, 2017"
+---
+
+```{r}
+#| results: asis
+source("../R/phd.R")
+phd_facts("bouscasse")
+```
+
+## Summary
+
+The thesis started from a regional transport question — how to represent rail in a regional passenger transport model — and developed into a set of essays on **travel mode choice**, combining economic and behavioural theories within the discrete choice framework.
+
+Its contributions, published in the articles listed below, include:
+
+- **Psychological factors in mode choice.** How environmental concern influences mode choice habits, studied with a mediation analysis, and how psychological variables can be measured and integrated in hybrid choice models (ICLV).
+- **New specifications of choice models.** A new family of qualitative choice models based on reference models and generalised linear models, compared with standard logit specifications on regional mode choice data.
+- **Model comparison.** The consequences of these specifications for prediction and for economic indicators such as willingness to pay.
+
+The thesis was co-supervised with Patrick Bonnel (LET). [Full text on HAL](https://theses.hal.science/tel-01661687)
+
+## Publications from the thesis
+
+```{r}
+#| results: asis
+phd_publications("Bouscasse")
+```

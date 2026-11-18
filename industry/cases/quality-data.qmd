@@ -1,0 +1,19 @@
+---
+title: "Quality data diagnosis"
+subtitle: "Case study · Manufacturing SME"
+toc: false
+---
+
+## Challenge
+
+Target quality controls according to the product mix.
+
+## Approach
+
+Diagnosis of production data quality.
+
+## Result
+
+A premature ML project avoided; a data roadmap defined.
+
+[← All case studies](../../industry.qmd#case-studies)

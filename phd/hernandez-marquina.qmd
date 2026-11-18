@@ -1,0 +1,27 @@
+---
+title: "The Role of Collaboration in the Sustainable Performance of Circular Supply Chains"
+subtitle: "PhD thesis of Maria Victoria Hernandez Marquina · Université Grenoble Alpes, 2024"
+---
+
+```{r}
+#| results: asis
+source("../R/phd.R")
+phd_facts("hernandez-marquina")
+```
+
+## Summary
+
+The circular economy aims to transform the way we produce and consume, by keeping products and materials in use for as long as possible. Doing so requires actors along the supply chain to work together in new ways. This thesis studies the role of **collaboration** in the **sustainable performance** of circular supply chains.
+
+Drawing on **social exchange theory**, it examines the determinants of collaboration between partners — trust, commitment, reciprocity and power — and their link with sustainable performance. The research combines **qualitative and quantitative methods** — including a study of the electrical and electronic equipment value chain — and is organised as four articles.
+
+The results show that **trust** positively influences both the quality of collaboration and sustainable performance. Unlike what is usually found in linear supply chains, however, the quality of collaboration does not mediate the relationship between trust and performance. The thesis also discusses its limits, including the exploratory nature of some steps and the complexity of the final model.
+
+The thesis was defended on 14 March 2024 at Grenoble INP – UGA. It was directed by Marie-Anne Le Dain, co-directed by Iragaël Joly and co-supervised by Peggy Zwolinski. [Record on theses.fr](https://theses.fr/2024GRALI009) · [Thesis page at G-SCOP](https://g-scop.grenoble-inp.fr/fr/production/these-maria-victoria-hernandez-marquina)
+
+## Publications from the thesis
+
+```{r}
+#| results: asis
+phd_publications("Hernandez Marquina")
+```

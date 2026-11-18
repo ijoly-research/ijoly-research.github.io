@@ -9,13 +9,15 @@ esc <- function(x) gsub("\\|", "/", x)
 
 ## PhD theses
 
+Click on a thesis title for its summary and publications.
+
 ```{r}
 #| results: asis
 phd <- read.csv("data/phd-supervision.csv", encoding = "UTF-8", stringsAsFactors = FALSE)
 for (i in seq_len(nrow(phd))) {
   p <- phd[i, ]
   cat("**", p$student, "** · ", p$period, "  \n", sep = "")
-  cat("*", p$title, "*  \n", sep = "")
+  cat("[*", p$title, "*](phd/", p$slug, ".qmd)  \n", sep = "")
   cat("Co-supervision ", p$co_supervision, " · Funding: ", p$funding,
       " · ", p$outcome, "\n\n", sep = "")
 }

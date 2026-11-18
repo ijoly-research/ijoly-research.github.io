@@ -1,0 +1,19 @@
+---
+title: "AI-based mould quotation"
+subtitle: "Case study · Mould maker · plastics"
+toc: false
+---
+
+## Challenge
+
+Quote custom moulds faster and more accurately.
+
+## Approach
+
+Machine-learning cost estimation model; making the data and the process more reliable (learning from accepted quotes only).
+
+## Result
+
+Faster, more consistent quotes.
+
+[← All case studies](../../industry.qmd#case-studies)

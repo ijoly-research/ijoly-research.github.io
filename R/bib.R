@@ -238,3 +238,65 @@ recent_items <- function(paths, n = 5) {
   all <- sort_entries(all)
   head(all, n)
 }
+
+# ---- Selections across all .bib files ------------------------------------------
+
+bib_dir <- if (dir.exists("data/bib")) "data/bib" else file.path("..", "data/bib")
+
+# All entries from every file in data/bib (a key present in several files is kept once)
+all_entries <- function(dir = bib_dir) {
+  files <- list.files(dir, pattern = "\\.bib$", full.names = TRUE)
+  all <- unlist(lapply(files, read_bib), recursive = FALSE)
+  keys <- vapply(all, `[[`, "", "key")
+  all[!duplicated(keys)]
+}
+
+# Prints a bullet list of the given entries
+print_entries <- function(entries, bullet = "- ") {
+  for (e in entries) cat(bullet, format_entry(e), "\n", sep = "")
+  cat("\n")
+}
+
+# Entries selected by citation keys, in the order given
+entries_by_keys <- function(keys, dir = bib_dir) {
+  all <- all_entries(dir)
+  ak <- vapply(all, `[[`, "", "key")
+  all[match(keys[keys %in% ak], ak)]
+}
+
+# Entries co-authored by a given surname (e.g. a PhD student), most recent first
+entries_by_author <- function(surname, dir = bib_dir) {
+  all <- all_entries(dir)
+  keep <- vapply(all, function(e) {
+    a <- f(e, "author"); !is.null(a) && grepl(surname, a, fixed = TRUE)
+  }, logical(1))
+  sort_entries(all[keep])
+}
+
+# Short reference: "Kouyoumji et al. (2025). Title. Venue." with links
+format_short <- function(e) {
+  a <- f(e, "author")
+  parts <- trimws(strsplit(a, "\\s+and\\s+")[[1]])
+  first <- trimws(strsplit(parts[1], ",")[[1]][1])
+  who <- if (length(parts) > 2) paste(first, "et al.")
+         else if (length(parts) == 2) paste(first, "&", trimws(strsplit(parts[2], ",")[[1]][1]))
+         else first
+  venue <- f(e, "journal"); if (is.null(venue)) venue <- f(e, "booktitle")
+  if (is.null(venue)) venue <- f(e, "institution")
+  if (is.null(venue)) venue <- f(e, "organization")
+  links <- c(
+    if (!is.null(f(e, "doi"))) paste0("[DOI](https://doi.org/", f(e, "doi"), ")"),
+    hal_link(f(e, "note"))
+  )
+  ref <- paste0(who, " (", f(e, "year"), "). ", f(e, "title"),
+                if (!is.null(venue)) paste0(". *", venue, "*") else "", ".")
+  ref <- gsub("\\?\\.", "?", ref)
+  if (length(links)) ref <- paste0(ref, " ", paste(links, collapse = " · "))
+  ref
+}
+
+print_short_keys <- function(keys) {
+  cat("::: {.pubs .pubs-short}\n\n")
+  for (e in entries_by_keys(keys)) cat("- ", format_short(e), "\n", sep = "")
+  cat("\n:::\n\n")
+}

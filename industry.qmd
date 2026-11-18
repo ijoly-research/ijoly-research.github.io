@@ -5,7 +5,7 @@ subtitle: "Support and training for industrial companies"
 
 I help industrial companies make AI **useful and profitable, from data to decision**: identifying the AI projects that make sense for the company, checking that the data allow them, and carrying them through to a tool that teams actually use. I also train the engineers and managers who will lead AI in their organisations.
 
-My approach combines the skills of an **economist and a data scientist**, to link every project to its economic value, with a perspective independent of any software vendor.
+My approach combines the skills of an **economist and a data scientist**, to link every project to its economic value and to its environmental and social impacts, with a perspective independent of any software vendor.
 
 ::: {.kpis}
 ::: {.kpi}
@@ -22,6 +22,15 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 :::
 :::
 
+## Sustainable AI
+
+Sustainability is built into every project I support, in two ways.
+
+- **AI for sustainability.** AI for the circular economy (reuse, remanufacturing, recycling), for energy efficiency, and for reducing waste and non-quality. Projects are assessed not only on cost, quality and lead time, but on the three dimensions of sustainability — **environmental, economic and social**.
+- **The sustainability of AI itself.** AI systems consume energy and resources, and need data infrastructures and skills to be maintained over time. I favour the simplest model that does the job, check that the data are ready before launching a machine-learning project, and keep an eye on rebound effects that can offset efficiency gains. The social side matters too: how tools change jobs and skills, and whether teams adopt them.
+
+These questions are at the heart of the ACCEL4.S chair, where I lead the axes *AI for the circular economy* and *AI for sustainable performance*, and of two PhD theses on [AI and the circular economy](phd/kouyoumji.qmd) and on [AI, energy efficiency and rebound effects](phd/dang.qmd).
+
 ## Areas of work
 
 - **Data and AI-maturity diagnosis** — start from the industrial need to qualify the data and identify what has to be consolidated.
@@ -31,9 +40,11 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 
 ## Case studies
 
+Click on a case for details.
+
 ::: {.cases}
 ::: {.case}
-#### Optimising machine tests
+#### [Optimising machine tests](industry/cases/machine-tests.qmd)
 [Manufacturer · compressors]{.sector}
 
 **Challenge:** improve the tuning tests (PID) of machines designed and produced on site.
@@ -44,7 +55,7 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 :::
 
 ::: {.case}
-#### AI-based mould quotation
+#### [AI-based mould quotation](industry/cases/mould-quotation.qmd)
 [Mould maker · plastics]{.sector}
 
 **Challenge:** quote custom moulds faster and more accurately.
@@ -55,7 +66,7 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 :::
 
 ::: {.case}
-#### Menu planning
+#### [Menu planning](industry/cases/menu-planning.qmd)
 [Institutional catering]{.sector}
 
 **Challenge:** balance cost, feasibility, compliance with the EGalim law and diner satisfaction.
@@ -66,7 +77,7 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 :::
 
 ::: {.case}
-#### Prioritising maintenance
+#### [Prioritising maintenance](industry/cases/maintenance.qmd)
 [Manufacturing SME]{.sector}
 
 **Challenge:** give the planner a clear view of the condition of critical equipment.
@@ -77,7 +88,7 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 :::
 
 ::: {.case}
-#### Quality data diagnosis
+#### [Quality data diagnosis](industry/cases/quality-data.qmd)
 [Manufacturing SME]{.sector}
 
 **Challenge:** target quality controls according to the product mix.
@@ -90,12 +101,37 @@ My approach combines the skills of an **economist and a data scientist**, to lin
 
 ## Training programmes
 
-For **engineers and managers** who are to become the AI leads of their organisation: identify the right use cases, scope a project, work with providers and understand the stakes. In person, inter- or intra-company. Active learning with tailor-made **serious games** and real cases from my projects.
+For **engineers and managers** who are to become the AI leads of their organisation: identify the right use cases, scope a project, work with providers and understand the stakes. In person, inter- or intra-company. Active learning with tailor-made **serious games** and real cases from my projects. Click on a programme for details.
 
-- **"AI and Applications" certificate** — 18 days · RNCP certification · eligible for the French CPF. A complete programme to become an AI lead: methods, tools, project management, industrial cases.
-- **"AI for Industry"** — 2 days · Grenoble INP continuing education. Industrial use cases: quality, maintenance, cost estimation, planning.
-- **3-hour workshops** — 10 to 20 participants, 2–3 sessions a year. AI and its economic, social and environmental stakes · AI project management for executives · needs analysis and AI solution design.
-- **AI for Manufacturing (EIT Manufacturing)** — 2021–2024, programme lead. European training programme on AI for manufacturing SMEs and students.
+::: {.cases}
+::: {.case}
+#### ["AI and Applications" certificate](industry/training/ai-applications-certificate.qmd)
+[18 days · RNCP certification · eligible for the French CPF]{.sector}
+
+A complete programme to become an AI lead: methods, tools, project management, industrial cases.
+:::
+
+::: {.case}
+#### ["AI for Industry"](industry/training/ai-for-industry.qmd)
+[2 days · Grenoble INP continuing education]{.sector}
+
+Industrial use cases: quality, maintenance, cost estimation, planning.
+:::
+
+::: {.case}
+#### [3-hour workshops](industry/training/workshops.qmd)
+[10 to 20 participants · 2–3 sessions a year]{.sector}
+
+AI and its economic, social and environmental stakes · AI project management for executives · needs analysis and AI solution design.
+:::
+
+::: {.case}
+#### [AI for Manufacturing — EIT Manufacturing](industry/training/eit-ai-for-manufacturing.qmd)
+[2021–2024 · programme lead]{.sector}
+
+European training programme on AI for manufacturing SMEs and students.
+:::
+:::
 
 Training is delivered through Grenoble INP, a Qualiopi-certified provider.
 

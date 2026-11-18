@@ -1,0 +1,19 @@
+---
+title: "Optimising machine tests"
+subtitle: "Case study · Manufacturer · compressors"
+toc: false
+---
+
+## Challenge
+
+Improve the tuning tests (PID) of machines designed and produced on site.
+
+## Approach
+
+Analysis of test data and optimisation of PID parameters.
+
+## Result
+
+80% of tests could be improved, a potential of €500k per year.
+
+[← All case studies](../../industry.qmd#case-studies)
